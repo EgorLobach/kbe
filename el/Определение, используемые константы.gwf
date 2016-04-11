@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<GWF version="2.0">
+    <staticSector>
+        <node type="node/const/group" idtf="атом" shapeColor="193" id="122207856" parent="0" left="0" top="0" right="49" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="785" y="195" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/asymmetry" idtf="" shapeColor="0" id="122207568" parent="0" x="689" y="196" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="используемые константы*" shapeColor="0" id="122207280" parent="0" left="0" top="0" right="215" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="565" y="135" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="Русский язык" shapeColor="0" id="122207712" parent="0" left="0" top="0" right="110" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="797" y="357" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="идентификатор*" shapeColor="0" id="81065816" parent="0" left="0" top="0" right="142" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="459" y="340" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="81066248" parent="0" x="638" y="288" haveBus="false">
+            <content type="1" mime_type="content/term" file_name=""><![CDATA[Опр.(электроотрицательность)]]></content>
+        </node>
+        <node type="node/const/relation" idtf="трансляция sc-текста*" shapeColor="0" id="120275048" parent="0" left="0" top="0" right="194" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="337" y="393" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="120273320" parent="0" x="283" y="491" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="120274760" parent="0" x="613" y="488" haveBus="false">
+            <content type="1" mime_type="content/term" file_name=""><![CDATA[Электроотрицательность  (относительная электроотрицательность) — фундаментальное химическое свойство атома, количественная характеристика способности атома в молекуле смещать к себе общие электронные пары, то есть способность атомов оттягивать к себе электроны других атомов.]]></content>
+        </node>
+        <node type="node/const/group" idtf="sc-определение" shapeColor="0" id="120273176" parent="0" left="0" top="0" right="122" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="51" y="288" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/attribute" idtf="ключевой sc-элемент'" shapeColor="0" id="120273896" parent="0" left="0" top="0" right="176" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="54" y="226" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="120278072" parent="0" x="283" y="287" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="электроотрицательность*" shapeColor="0" id="81072728" parent="0" left="0" top="0" right="221" bottom="29" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="281" y="149" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="124504400" parent="0" id_b="122207568" id_e="122207856" b_x="689" b_y="196" e_x="785" e_y="195" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="124504568" parent="0" id_b="122207568" id_e="120278072" b_x="689" b_y="196" e_x="283" e_y="287" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="124503224" parent="0" id_b="122207280" id_e="124504568" b_x="565" b_y="135" e_x="1" e_y="0" dotBBalance="0" dotEBalance="0.394924">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="35995408" parent="0" id_b="122207712" id_e="120274760" b_x="797" b_y="357" e_x="613" e_y="488" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="35994568" parent="0" id_b="122207712" id_e="81066248" b_x="797" b_y="357" e_x="638" e_y="288" dotBBalance="0" dotEBalance="0">
+            <points>
+                <point x="797" y="291"/>
+            </points>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="101681832" parent="0" id_b="81065816" id_e="124505912" b_x="459" b_y="340" e_x="0" e_y="-1" dotBBalance="0" dotEBalance="0.643315">
+            <points/>
+        </arc>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="124505912" parent="0" id_b="120278072" id_e="81066248" b_x="283" b_y="287" e_x="638" e_y="288" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="124502216" parent="0" id_b="120275048" id_e="81434344" b_x="337" b_y="393" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.465617">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="81440896" parent="0" id_b="120273320" id_e="120274760" b_x="283" b_y="491" e_x="613" e_y="488" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="81434344" parent="0" id_b="120273320" id_e="120278072" b_x="283" b_y="491" e_x="283" e_y="287" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="124500536" parent="0" id_b="120273896" id_e="124501208" b_x="54" b_y="226" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.436061">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="124501208" parent="0" id_b="120278072" id_e="81072728" b_x="283" b_y="287" e_x="281" e_y="149" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="124500872" parent="0" id_b="120273176" id_e="120278072" b_x="51" b_y="288" e_x="283" e_y="287" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+    </staticSector>
+</GWF>
